@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMS Search Page</title>
+        <link rel="stylesheet" href="bing/stylesheet.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body style="background-color: rgb(34, 34, 34);">
+        <div style="left: 50%; top: 50%; transform: translate(-50%, -50%); position: absolute; text-align: center;">
+            <h1 style="font-size: xx-large; color:rgb(211, 211, 211)" id="h1">I prefer to search with:</h1>
+                <form action="javascript:cont()" method="GET">
+                    <select name="q" id="q" style="margin-top: 2.5%;">
+                        <option value="google">Google</option>
+                        <option value="bing">Bing</option>
+                        <option value="ddg">DuckDuckGo</option>
+                    </select>
+                    <script>
+                        var q = document.getElementById("q").value;
+                        if (q == "google") {
+                            document.getElementById("submit").value = "Go to Google Search Page";
+                        } else if (q == "bing") {
+                            document.getElementById("submit").value = "Go to Bing Search Page";
+                        } else if (q == "ddg") {
+                            document.getElementById("submit").value = "Go to DuckDuckGo Search Page";
+                        }
+                    </script>
+                    <button type="submit" id="submit">
+                        Go to Search Page
+                    </button>
+                </form>
+            <script>
+                function cont() {
+                    window.open(document.getElementById("q").value, "_self");
+                }
+            </script>
+        </div>
+        <div style="right: 2.5%; top: 3.5%; transform: translate(-5%, -5%); position: absolute; text-align: center;">
+            <div>
+                <button onclick="darkthemetoggle();" style="outline: gray; border: none; background-color: transparent; z-index: -1;">
+                    <img src="https://apache.org/icons/pie4.gif" height="40">
+                </button>
+                <script>
+                    function darkthemetoggle() {
+                        if (document.body.style.backgroundColor == "rgb(34, 34, 34)"){
+                            document.body.style.backgroundColor = "rgb(211, 211, 211)";
+                            document.getElementById("h1").style.color = "rgb(34, 34, 34)";
+                            document.getElementById("q").style.backgroundColor = "transparent";
+                            document.getElementById("q").style.color = "rgb(34, 34, 34)";
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].style.backgroundColor = "transparent";
+                                x[i].style.color = "rgb(34, 34, 34)";
+                                x[i].style.border = "1px solid rgb(34, 34, 34)";
+                            }
+                        } else {
+                            document.body.style.backgroundColor = "rgb(34, 34, 34)";
+                            document.getElementById("h1").style.color = "rgb(211, 211, 211)";
+                            document.getElementById("q").style.backgroundColor = "transparent";
+                            document.getElementById("q").style.color = "rgb(211, 211, 211)";
+                            var x = document.getElementsByTagName("option");
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].style.backgroundColor = "transparent";
+                                x[i].style.color = "rgb(211, 211, 211)";
+                                x[i].style.border = "1px solid rgb(211, 211, 211)";
+                            }
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

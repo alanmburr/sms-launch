@@ -1,0 +1,59 @@
+.center {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.form_length {
+    width: 38%;
+}
+.search_submit {
+    height: 100%;
+    display: inline;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 4.5px;
+    border-radius: 0 4px 4px 0;
+    min-width: 26px;
+    color: #999;
+    font-size: 1.25em;
+    padding: 0 .64em;
+    min-height: 1.8em;
+    margin-bottom: -1px;
+    margin-right: -3px;
+    line-height: 1.5;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-sizing: content-box;
+    font-family: 'ddg-serp-icons' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 1em;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    border: none;
+    height: 2.45em;
+    line-height: 2.45em;
+    position: absolute;
+    top: 1.9vh;
+    bottom: 0;
+    right: 2px;
+    left: auto;
+    margin: auto;
+    z-index: 2;
+    outline: none;
+}
+.search_submit:hover {
+    background-color: transparent;
+}
