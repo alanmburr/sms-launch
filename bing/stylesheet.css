@@ -303,3 +303,25 @@ body:not(.tabbing) *:focus{outline:none}
     padding-left: 2.5px;
     
 }
+/*a, li, ul {
+    font-size: .8125rem;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.scope_cont {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    line-height: 39px;
+    top: 0;
+    bottom: 0;
+    margin-left: 72px;
+    display: inline-block;
+    white-space: nowrap;
+}
+li.scope {
+    display:  flex;
+    flex-direction: row;
+}*/
