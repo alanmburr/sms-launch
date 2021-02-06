@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>SMS Search Page with Google</title>
+        <meta charset="utf-8">
         <link rel="shortcut icon" href="https://www.salemmontessori.org/wp-content/uploads/2020/02/cropped-LogoCircle-RGB-32x32.png" sizes="32x32">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans">
         <style>
@@ -79,7 +80,15 @@
                 color: rgba(0,0,0,.87);
             }
         </style>
-        <title>Launch</title>
+        <script>
+            pOSTurl = location.href;
+            pOSTurl = pOSTurl.split('/').pop();
+            if (!pOSTurl.length) {
+                console.log(pOSTurl);
+            } else {
+                window.open("https://www.google.com/search"+pOSTurl, "_self");
+            }
+        </script>
     </head>
     <body>
         <div style="padding: 10px; max-height: 12pt; height: 12pt;bottom: 6px; float: initial;">
