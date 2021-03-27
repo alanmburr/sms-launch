@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en_US">
 	<head>
-		<title>SMS Search Page with DuckDuckGo</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
@@ -12,14 +11,42 @@
 		<link rel="preload" href="//duckduckgo.com/font/ProximaNova-Sbold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
 		<link rel="preload" href="//duckduckgo.com/font/ProximaNova-ExtraBold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
 		<link rel="shortcut icon" href="//www.salemmontessori.org/wp-content/uploads/2020/02/cropped-LogoCircle-RGB-32x32.png" type="image/x-icon"/>
-		<link rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
-		<link rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png"/>
-		<link rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png"/>
-		<link rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png"/>
-		<link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png"/>
-		<link rel="manifest" href="//duckduckgo.com/manifest.json"/>
-		<meta property="og:title" content="SMS Launch with DuckDuckGo" />
+		
+        	<!-- HTML Meta Tags -->
+        	<title>SMS Search Page with DuckDuckGo</title>
+        	<meta name="description" content="'Seamlessly take control of your personal information online' -DuckDuckGo. Search DDG with SMS Search Page with DDG.">
+
+        	<!-- Facebook Meta Tags -->
+        	<meta property="og:url" content="https://wackyblackie.github.io/sms-launch/ddg/">
+        	<meta property="og:type" content="website">
+        	<meta property="og:title" content="SMS Search Page with DuckDuckGo">
+        	<meta property="og:description" content="'Seamlessly take control of your personal information online' -DuckDuckGo. Search DDG with SMS Search Page with DDG.">
+        	<meta property="og:image" content="https://raw.githubusercontent.com/wackyblackie/sms-launch/main/og.png">
+
+        	<!-- Twitter Meta Tags -->
+        	<meta name="twitter:card" content="summary_large_image">
+        	<meta property="twitter:domain" content="wackyblackie.github.io">
+        	<meta property="twitter:url" content="https://wackyblackie.github.io/sms-launch/ddg/">
+        	<meta name="twitter:title" content="SMS Search Page with DuckDuckGo">
+        	<meta name="twitter:description" content="'Seamlessly take control of your personal information online' -DuckDuckGo. Search DDG with SMS Search Page with DDG.">
+        	<meta name="twitter:image" content="https://raw.githubusercontent.com/wackyblackie/sms-launch/main/og.png">
+
+        	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      
+
+        	<link rel="canonical" href="https://wackyblackie.github.io/sms-launch/ddg/" />
+        	<link rel='shortlink' href='https://wackyblackie.github.io/sms-launch/ddg/' />
+      
 		<link rel="stylesheet" href="stylesheet.css">
+		<script>
+            		pOSTurl = location.href;
+            		pOSTurl = pOSTurl.split('/').pop();
+            		if (!pOSTurl.length) {
+                		console.log(pOSTurl);
+            		} else {
+                		window.location.replace("https://duckduckgo.com/?q="+pOSTurl);
+            		}
+        </script>
 	</head>
 	<body>
 		<div class="center form_length">
