@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!-- HTML Meta Tags -->
         <title>SMS Search Page with Bing</title>
+        <meta name="description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://wackyblackie.github.io/sms-launch/bing/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="SMS Search Page with Bing">
+        <meta property="og:description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
+        <meta property="og:image" content="https://raw.githubusercontent.com/wackyblackie/sms-launch/main/og.png">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="wackyblackie.github.io">
+        <meta property="twitter:url" content="https://wackyblackie.github.io/sms-launch/bing/">
+        <meta name="twitter:title" content="SMS Search Page with Bing">
+        <meta name="twitter:description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/wackyblackie/sms-launch/main/og.png">
+
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+        <link rel="canonical" href="https://wackyblackie.github.io/sms-launch/bing/" />
+        <link rel='shortlink' href='https://wackyblackie.github.io/sms-launch/bing/' />
+      
         <link rel="shortcut icon" href="//www.salemmontessori.org/wp-content/uploads/2020/02/cropped-LogoCircle-RGB-32x32.png">
-        <!--<link rel="stylesheet" href="//www.bing.com/rp/MBLSksm5Sdxx5BrDUWazdun_P9g.br.css">-->
         <link rel="stylesheet" href="bing.css">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="preload" href="//s24953.pcdn.co/blog/wp-content/uploads/2018/01/MariaM_blog-1024x576.png" type="image">
-        <title>Launch</title>
+        <script>
+            pOSTurl = location.href;
+            pOSTurl = pOSTurl.split('/').pop();
+            if (!pOSTurl.length) {
+                console.log(pOSTurl);
+            } else {
+                window.location.replace("http://www.bing.com/search?q="+pOSTurl);
+            }
+        </script>
     </head>
     <body data-priority="2">
         <div class="hpapp">
@@ -38,10 +68,10 @@
                             <div class="scope_cont">
                                 <ul style="margin-top: .7vh;">
                                     <li class="scope" style="color: rgba(255,255,255,.8); display: inline; margin-right: 36px;">
-                                        <a href="/google/" style="color: inherit; font-size: small;">Google</a>
+                                        <a href="../google/" style="color: inherit; font-size: small;">Google</a>
                                     </li>
                                     <li class="scope try_exp" style="color: rgba(255,255,255,.8); display: inline; margin-right: 36px;">
-                                        <a href="/ddg/" style="color: inherit; font-size: small;">DuckDuckGo</a>
+                                        <a href="../ddg/" style="color: inherit; font-size: small;">DuckDuckGo</a>
                                     </li>
                                     <li class="scope try_exp" style="color: rgba(255,255,255,.8); display: hidden;"></li>
                                     <li class="scope dots" style="display: hidden;"></li>
