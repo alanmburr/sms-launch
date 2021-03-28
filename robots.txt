@@ -4,6 +4,7 @@ Disallow: /index.html
 Disallow: /google9788ae62d68f4368.html
 Allow: /se-choose.html
 Disallow: /stylesheet.css
+Allow: /og.png
 Disallow: /bing/
 Allow: /bing/index.html
 Allow: /bing/stylesheet.css
