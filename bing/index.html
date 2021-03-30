@@ -38,12 +38,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link rel="preload" href="//s24953.pcdn.co/blog/wp-content/uploads/2018/01/MariaM_blog-1024x576.png" type="image">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
-            pOSTurl = location.href;
-            pOSTurl = pOSTurl.split('/').pop();
-            if (!pOSTurl.length) {
-                console.log(pOSTurl);
-            } else {
-                window.location.replace("http://www.bing.com/search?q="+pOSTurl);
+            const url = new URL(location.href);
+            if (url.searchParams.get('q')) {
+                location.replace("https://www.bing.com/search?q="+ url.searchParams.get('q'));
+            } else if (url.searchParams.get("s")) {
+                location.replace("https://www.bing.com/search?q="+ url.searchParams.get('s'));
             }
         </script>
         <!-- Clarity tracking code for https://wackyblackie.github.io/sms-launch/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "5qhrfhcfbk");</script>
