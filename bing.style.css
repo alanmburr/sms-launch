@@ -686,4 +686,8 @@ li.scope {
     background-position:-15px -190px;
     background-size:241px 224px;
     background-image:url('//www.bing.com/rp/PmuRDG_en-pgKNL_XxqZp2HXpeo.png')
+} .disableBgImage:checked {
+    color: #3692fa;
+} .disableBgImage:hover {
+    color: #327af4;
 }
