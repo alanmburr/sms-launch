@@ -13,4 +13,4 @@ These fonts are licensed under the Ubuntu Font License.
 ## Segoe UI Font
 Legal can be found here: [https://docs.microsoft.com/en-us/typography/font-list/segoe-ui](https://docs.microsoft.com/en-us/typography/font-list/segoe-ui)
 ## Legal Problems
-**If you notice any problem with the legal status of this site, please contact me at [wackyblackie-page-feedback@outlook.com](mailto:wackyblackie-page-feedback@outlook.com?subject=SMS%20Search%20Page%20Legal%20Issue)
+**If you notice any problem with the legal status of this site, please contact me at [wackyblackie-page-feedback@outlook.com](mailto:wackyblackie-page-feedback@outlook.com?subject=SMS%20Search%20Page%20Legal%20Issue)**
