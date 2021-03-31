@@ -20,3 +20,5 @@ twitter_tweet_button: true
 google_plus_one: false
 google_plus_one_size: medium
 facebook_like: false
+gitlab_username: wackyblackie
+exclude: 404.md
