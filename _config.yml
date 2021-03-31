@@ -1,0 +1,22 @@
+title: SMS Launch
+author: Alan Burr
+description: >
+ SMS Search Paages make it easy to
+ search the Internet with your favourite search engines.
+ Search with Google, Bing, and DuckDuckGo!
+email: wackyblackie-page-feedback@outlook.com
+root: /sms-launch
+source: source
+destination: public
+theme: minima
+titlecase: true
+github_username: wackyblackie
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
+repo_name: sms-launch
+twitter_username: AlanBurr12
+twitter_tweet_button: true
+google_plus_one: false
+google_plus_one_size: medium
+facebook_like: false
