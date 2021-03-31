@@ -2,7 +2,6 @@
 title: Extensions
 permalink: /extension/
 ---
-# Installing extensions
 ## Installing the Chromium Extension
 ```
 Minimum requirements: Google Chrome 87+ OR Microsoft Edge 88+. Works with developer editions too.
