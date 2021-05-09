@@ -30,5 +30,9 @@ and click "+ Add to Firefox".
 1. Click on "Extensions"
 1. Find "SMS Launch with Google" and toggle it on.
 
+## Installing the Internet Explorer Extension
+1. Click [this link](javascript:window.external.AddSearchProvider('https://wackyblackie.github.io/sms-launch/extension/packed/v0.0.2/SMSGoogleAddOn.SMSGoogleAddOn'))
+1. Click <i>Add</i>.
+
 # Issues
 Report Issues/Bugs to: <a href="https://github.com/wackyblackie/sms-launch/issues">https://github.com/wackyblackie/sms-launch/issues</a>.
