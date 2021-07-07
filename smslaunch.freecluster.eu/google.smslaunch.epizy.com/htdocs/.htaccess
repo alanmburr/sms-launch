@@ -1,0 +1,21 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www.google.smslaunch.epizy.com [NC]
+RewriteRule ^(.*)$ https://google.smslaunch.epizy.com%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 400 /http.php?n=400&t=Bad%20Request
+ErrorDocument 401 /http.php?n=401&t=Unauthorized
+ErrorDocument 403 /http.php?n=403&t=Forbidden
+ErrorDocument 404 /http.php?n=404&t=Not%20Found
+ErrorDocument 500 /http.php?n=500&t=Internal%20Server%20Error
+ErrorDocument 503 /http.php?n=503&t=Service%20Unavailable
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=63072000; preload"
+</IfModule>

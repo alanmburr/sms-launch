@@ -1,0 +1,10 @@
+php_value display_errors Off
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+
+ErrorDocument 400 /http.php?n=400&t=Bad%20Request
+ErrorDocument 401 /http.php?n=401&t=Unauthorized
+ErrorDocument 403 /http.php?n=403&t=Forbidden
+ErrorDocument 404 /http.php?n=404&t=Not%20Found
+ErrorDocument 500 /http.php?n=500&t=Internal%20Server%20Error
+ErrorDocument 503 /http.php?n=503&t=Service%20Unavailable

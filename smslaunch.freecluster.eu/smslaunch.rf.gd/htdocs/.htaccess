@@ -1,0 +1,5 @@
+ErrorDocument 400 http://smslaunch.rf.gd
+ErrorDocument 401 http://smslaunch.rf.gd
+ErrorDocument 403 http://smslaunch.rf.gd
+ErrorDocument 404 http://smslaunch.rf.gd
+ErrorDocument 503 http://smslaunch.rf.gd
