@@ -76,7 +76,7 @@ body:not(.tabbing) *:focus{outline:none}
 .sbox.fix{top:40px !important;transform:none !important}
 .sbox .logo,.sbox .sb_form{display:inline-block;vertical-align:middle}
 .sbox .logo{width:20%;height:100%}.sbox .logo svg{height:100%;width:100%}
-.sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:6px;height:100%;position:relative;background-color:#fff}
+.sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:24px;height:100%;position:relative;background-color:#fff}
 .sbox .sb_form svg{height:100%;width:100%}
 .sbox .sb_form input[type=search]::-ms-clear,.sbox .sb_form input[type=search]::-ms-reveal{display:none;width:0;height:0}
 .sbox .sb_form .sb_form_q{background-color:transparent;padding:12px 10px;flex:1;border:0;outline:none;-webkit-appearance:none;font-size:1.125rem;font:inherit}
@@ -222,7 +222,7 @@ body:not(.tabbing) *:focus{outline:none}
     .sbox .logo,.sbox .sb_form{display:inline-block;vertical-align:middle}
     .sbox .logo{width:20%;height:100%}
     .sbox .logo svg{height:100%;width:100%}
-    .sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:6px;height:100%;position:relative;background-color:#fff}
+    .sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:24px;height:100%;position:relative;background-color:#fff}
     .sbox .sb_form svg{height:100%;width:100%}
     .sbox .sb_form input[type=search]::-ms-clear,.sbox .sb_form input[type=search]::-ms-reveal{display:none;width:0;height:0}
     .sbox .sb_form .sb_form_q{background-color:transparent;padding:12px 10px;flex:1;border:0;outline:none;-webkit-appearance:none;font-size:1.125rem;font:inherit}
@@ -402,7 +402,7 @@ body:not(.tabbing) *:focus{outline:none}
 .sbox.fix{top:40px !important;transform:none !important}
 .sbox .logo,.sbox .sb_form{display:inline-block;vertical-align:middle}
 .sbox .logo{width:20%;height:100%}.sbox .logo svg{height:100%;width:100%}
-.sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:6px;height:100%;position:relative;background-color:#fff}
+.sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:24px;height:100%;position:relative;background-color:#fff}
 .sbox .sb_form svg{height:100%;width:100%}
 .sbox .sb_form input[type=search]::-ms-clear,.sbox .sb_form input[type=search]::-ms-reveal{display:none;width:0;height:0}
 .sbox .sb_form .sb_form_q{background-color:transparent;padding:12px 10px;flex:1;border:0;outline:none;-webkit-appearance:none;font-size:1.125rem;font:inherit}
@@ -548,7 +548,7 @@ body:not(.tabbing) *:focus{outline:none}
     .sbox .logo,.sbox .sb_form{display:inline-block;vertical-align:middle}
     .sbox .logo{width:20%;height:100%}
     .sbox .logo svg{height:100%;width:100%}
-    .sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:6px;height:100%;position:relative;background-color:#fff}
+    .sbox .sb_form{width:100%;background-color:transparent;font:1rem/normal "Segoe UI",Arial,Helvetica,Sans-Serif;padding-right:10px;box-shadow:0 2px 4px rgba(0,0,0,.3);align-items:center;justify-content:flex-end;display:inline-flex;border-radius:24px;height:100%;position:relative;background-color:#fff}
     .sbox .sb_form svg{height:100%;width:100%}
     .sbox .sb_form input[type=search]::-ms-clear,.sbox .sb_form input[type=search]::-ms-reveal{display:none;width:0;height:0}
     .sbox .sb_form .sb_form_q{background-color:transparent;padding:12px 10px;flex:1;border:0;outline:none;-webkit-appearance:none;font-size:1.125rem;font:inherit}

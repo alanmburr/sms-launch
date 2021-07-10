@@ -1,0 +1,5 @@
+ErrorDocument 400 https://www.smslaunch.epizy.com
+ErrorDocument 401 https://www.smslaunch.epizy.com
+ErrorDocument 403 https://www.smslaunch.epizy.com
+ErrorDocument 404 https://www.smslaunch.epizy.com
+ErrorDocument 503 https://www.smslaunch.epizy.com
