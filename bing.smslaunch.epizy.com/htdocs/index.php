@@ -82,7 +82,15 @@
                                 <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;">
                                     <script>var bgimgurl = "MariaM_blog-1024x576.png";</script>
                                     &nbsp;<input style="cursor: pointer;" type="checkbox" name="bg_disable" onchange="if (this.checked == true) {document.getElementById('bg_img').style.backgroundImage = 'none'; dBc();} else {document.getElementById('bg_img').style.backgroundImage = 'url('+bgimgurl+')'; eBc();}" class="disableBgImage" id="bg_disable">
-                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Disable Background Image</small></label>&nbsp;
+                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">No Image</small></label>&nbsp;
+                                </a>
+                                <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;">
+                                    &nbsp;<input style="cursor: pointer;" type="checkbox" name="bg_disable" onchange="if (this.checked == true) {rounded();} else {sixpx();}" class="disableBgImage" id="rc_enable">
+                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Rounded corners</small></label>&nbsp;
+                                </a>
+                                <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px; display: none;">
+                                    &nbsp;<input style="cursor: pointer; " type="checkbox" name="bg_disable" onchange="if (this.checked == true) {rounded();} else {sixpx();}" class="disableBgImage" id="rc_enable">
+                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Rounded corners</small></label>&nbsp;
                                 </a>
                             </div>
                         </div>
@@ -122,15 +130,36 @@
             date.setTime(date.getTime()+(730*24*60*60*1000));
 		    var expirydate = date.toUTCString();
             function dBc() {
-                document.cookie = "Background=false; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure"
+                document.cookie = "Background=false; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
             }
             function eBc() {
-                document.cookie = "Background=true; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure"
+                document.cookie = "Background=true; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+            }
+            function rounded() {
+                document.getElementById('sb_form').style.borderRadius = '24px';
+                document.getElementById('sb_form_q').style.padding = '12px 10px 12px 16px';
+                document.cookie = "Corners=rounded; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+            }
+            function sixpx() {
+                document.getElementById('sb_form').style.borderRadius = '6px';
+                document.getElementById('sb_form_q').style.padding = '12px 10px';
+                document.cookie = "Corners=sixpx; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
             }
             if (readCookie("Background") == "true") {
                 document.getElementById('bg_img').style.backgroundImage = 'url('+bgimgurl+')'; eBc();
             } else {
                 document.getElementById('bg_img').style.backgroundImage = 'none'; dBc();
+            }
+            if (readCookie("Corners") == "rounded") {
+                document.getElementById('sb_form').style.borderRadius = '24px';
+                document.getElementById('sb_form_q').style.padding = '12px 10px 12px 16px';
+                document.getElementById('rc_enable').setAttribute("checked");
+                document.getElementById('rc_enable').checked = "true";
+            } else {
+                document.getElementById('sb_form').style.borderRadius = '6px';
+                document.getElementById('sb_form_q').style.padding = '12px 10px';
+                document.getElementById('rc_enable').removeAttribute("checked");
+                document.getElementById('rc_enable').checked = "false";
             }
         </script>
     </body>
