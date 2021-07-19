@@ -58,7 +58,7 @@
                 margin-top:-4px;
                 padding-top:-4px;
             }
-            .g {font-family: 'Google Sans'/*, Tahoma, Geneva, sans-serif*/ !important;color: black;}
+            .g {font-family: 'Google Sans', Tahoma, Geneva, sans-serif !important;color: black;}
             .b {font-family: 'Segoe UI', Tahoma, Geneva, sans-serif !important; color: black;}
             .d {font-family: 'Proxima Nova', Tahoma, Geneva, sans-serif !important; color: black;}
         </style>
@@ -73,7 +73,7 @@
                         <hr>
                         <div class="selfcontainer g">
                             <h3 class="g"><b class="g">Google</b></h3> 
-                            <i class="g">Search the world's information, including webpages, images, videos and more.</i> 
+                            <i class="g">Search the world's information, including webpages, images, videos&NewLine; and more.</i> 
                         </div>
                     </div></a>
                 </div>
