@@ -6,7 +6,7 @@
         <meta name="description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
 
         <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://wackyblackie.github.io/sms-launch/bing/">
+        <meta property="og:url" content="http://bing.smslaunch.epizy.com/">
         <meta property="og:type" content="website">
         <meta property="og:title" content="SMS Search Page with Bing">
         <meta property="og:description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
@@ -15,15 +15,15 @@
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta property="twitter:domain" content="wackyblackie.github.io">
-        <meta property="twitter:url" content="https://wackyblackie.github.io/sms-launch/bing/">
+        <meta property="twitter:url" content="http://bing.smslaunch.epizy.com/">
         <meta name="twitter:title" content="SMS Search Page with Bing">
         <meta name="twitter:description" content="'Bing helps you turn information into action, making it faster and easier to go from searching to doing.' -Bing. Search Bing with SMS Search Page with Bing.">
         <meta name="twitter:image" content="https://raw.githubusercontent.com/wackyblackie/sms-launch/main/og.png">
 
         <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
-        <link rel="canonical" href="https://wackyblackie.github.io/sms-launch/bing/" />
-        <link rel='shortlink' href='https://wackyblackie.github.io/sms-launch/bing/' />
+        <link rel="canonical" href="http://bing.smslaunch.epizy.com/" />
+        <link rel='shortlink' href='http://bing.smslaunch.epizy.com/' />
       
         <link rel="shortcut icon" href="cropped-LogoCircle-RGB-32x32.png">
         <link rel="stylesheet" href="bing.style.css">
@@ -79,19 +79,15 @@
                         </div>
                         <div style="right: 0; position: absolute; text-align: center; top: .7vh; color: rgba(255,255,255,.8); background-color: transparent;">
                             <div>
-                                <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;">
-                                    <script>var bgimgurl = "MariaM_blog-1024x576.png";</script>
-                                    &nbsp;<input style="cursor: pointer;" type="checkbox" name="bg_disable" onchange="if (this.checked == true) {document.getElementById('bg_img').style.backgroundImage = 'none'; dBc();} else {document.getElementById('bg_img').style.backgroundImage = 'url('+bgimgurl+')'; eBc();}" class="disableBgImage" id="bg_disable">
+                                <label class="idp_ham hphbtop noselect usercontrols" role="button" for="bg_disable" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;" id="lbl_nbgimg">
+                                    <script>var bgimgurl = "MariaM_blog-1024x576.png";</script>&nbsp;
+                                    <input id="bg_disable" style="cursor: pointer;" type="checkbox" onchange="toggleBG(this)" class="disableBgImage">
                                     <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">No Image</small></label>&nbsp;
-                                </a>
-                                <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;">
-                                    &nbsp;<input style="cursor: pointer;" type="checkbox" name="bg_disable" onchange="if (this.checked == true) {rounded();} else {sixpx();}" class="disableBgImage" id="rc_enable">
-                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Rounded corners</small></label>&nbsp;
-                                </a>
-                                <a id="id_sc" class="idp_ham hphbtop" aria-label="Settings and quick links" aria-expanded="false" aria-controls="id_hbfo" aria-haspopup="true" role="button" tabindex="0" href="javascript:void(0)" h="ID=SERP,5025.1" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px; display: none;">
-                                    &nbsp;<input style="cursor: pointer; " type="checkbox" name="bg_disable" onchange="if (this.checked == true) {rounded();} else {sixpx();}" class="disableBgImage" id="rc_enable">
-                                    <label for="bg_disable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Rounded corners</small></label>&nbsp;
-                                </a>
+                                </label>
+                                <label class="idp_ham hphbtop noselect usercontrols" for="rc_enable" style="color: inherit; background-color: rgba(200,200,200,.3); margin: 2px; border: 1px solid rgba(200,200,200,.3); border-radius: 6px;" id="lbl_rcen">
+                                    &nbsp;<input style="cursor: pointer;" type="checkbox" onchange="toggleRC(this)" class="disableBgImage" id="rc_enable">
+                                    <label for="rc_enable" style="color: inherit;cursor: pointer;"><small style="color: inherit;">Rounded corners</small></label>&nbsp;
+                                </label>
                             </div>
                         </div>
                     </header>
@@ -101,7 +97,7 @@
                             <input id="sb_form_q" class="sb_form_q" name="q" type="search" maxlength="1000" autocomplete="off" aria-label="Enter your search term" autofocus="" aria-controls="sw_as" aria-autocomplete="both" aria-owns="sw_as" spellcheck="false" data-ms-editor="true">
                             <input id="sb_form_go" type="submit" aria-label="Search" name="search" value="">
                             <label for="sb_form_go" class="search icon tooltip sb_logo" aria-label="Search the web" style="vertical-align: top; display: inline-block;">
-                                <img src="favicon-2x.ico" style="display: block;" id="search_logo">
+                                <img src="favicon-2x.ico" style="display: block;" id="search_logo" alt="🔍">
                             </label>
                             <div id="sw_as" style="display: block; margin-left: 0px; margin-right: -10px;" aria-expanded="false">
                                 <div class="sa_as" data-priority="2" style="display: none;"></div>
@@ -129,37 +125,36 @@
             var date = new Date();
             date.setTime(date.getTime()+(730*24*60*60*1000));
 		    var expirydate = date.toUTCString();
-            function dBc() {
-                document.cookie = "Background=false; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+
+            function toggleBG(el) {
+                var checked = el.checked;
+                if (checked) {
+                    /*Set "NoBackground" Cookie*/ document.cookie = "NoBackground=true; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+                    /*Remove Background*/ document.getElementById('bg_img').style.backgroundImage = 'none';
+                } else {
+                    /*Set "NoBackground" Cookie*/ document.cookie = "NoBackground=false; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+                    /*Add Background*/ document.getElementById('bg_img').style.backgroundImage = 'url('+bgimgurl+')';
+                }              
             }
-            function eBc() {
-                document.cookie = "Background=true; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+            function toggleRC(el) {
+                var checked = el.checked;
+                if (checked) {
+                    /*Set "Corners" Cookie*/ document.cookie = "Corners=true; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+                    /*Round Corners*/ document.getElementById('sb_form').style.borderRadius = '24px';
+                    /*Round Corners*/ document.getElementById('sb_form_q').style.padding = '12px 10px 12px 16px';
+                    /*Round Corners*/ for (i=0;document.getElementsByClassName('usercontrols').length>i;i++) {document.getElementsByClassName("usercontrols")[i].style.borderRadius = "24px";}
+                } else {
+                    /*Set "Corners" Cookie*/ document.cookie = "Corners=false; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+                    /*Round Corners*/ document.getElementById('sb_form').style.borderRadius = '6px';
+                    /*Round Corners*/ document.getElementById('sb_form_q').style.padding = '12px 10px';
+                    /*Round Corners*/ for (i=0;document.getElementsByClassName('usercontrols').length>i;i++) {document.getElementsByClassName("usercontrols")[i].style.borderRadius = "6px";}
+                }
             }
-            function rounded() {
-                document.getElementById('sb_form').style.borderRadius = '24px';
-                document.getElementById('sb_form_q').style.padding = '12px 10px 12px 16px';
-                document.cookie = "Corners=rounded; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
+            if (readCookie("Corners")) {
+                toggleRC(document.getElementById("rc_enable"));
             }
-            function sixpx() {
-                document.getElementById('sb_form').style.borderRadius = '6px';
-                document.getElementById('sb_form_q').style.padding = '12px 10px';
-                document.cookie = "Corners=sixpx; expires="+expirydate+"; path=/; domain="+window.location.hostname+"; samesite=strict; secure";
-            }
-            if (readCookie("Background") == "true") {
-                document.getElementById('bg_img').style.backgroundImage = 'url('+bgimgurl+')'; eBc();
-            } else {
-                document.getElementById('bg_img').style.backgroundImage = 'none'; dBc();
-            }
-            if (readCookie("Corners") == "rounded") {
-                document.getElementById('sb_form').style.borderRadius = '24px';
-                document.getElementById('sb_form_q').style.padding = '12px 10px 12px 16px';
-                document.getElementById('rc_enable').setAttribute("checked");
-                document.getElementById('rc_enable').checked = "true";
-            } else {
-                document.getElementById('sb_form').style.borderRadius = '6px';
-                document.getElementById('sb_form_q').style.padding = '12px 10px';
-                document.getElementById('rc_enable').removeAttribute("checked");
-                document.getElementById('rc_enable').checked = "false";
+            if (readCookie("NoBackground")) {
+                toggleBG(document.getElementById("bg_disable"));
             }
         </script>
     </body>
