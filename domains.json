@@ -1,0 +1,24 @@
+{
+    "DNS": {
+        "SUBDOMAIN": [
+            "aguaproject.22web.org",
+            "bing.smslaunch.epizy.com",
+            "ddg.smslaunch.epizy.com",
+            "google.smslaunch.epizy.com",
+            "smslaunch.epizy.com",
+            "smslaunch.freecluster.eu",
+            "smslaunch.rf.gd"
+        ],
+        "MAIN": ["6g641tsm.epizy.com"]
+    },
+    "IP": ["185.27.134.150"],
+    "SSL": {
+        "aguaproject.22web.org": false,
+        "bing.smslaunch.epizy.com": "ZeroSSL > ZeroSSL RSA Domain Secure Site CA > USERTrust RSA Certification Authority",
+        "ddg.smslaunch.epizy.com": false,
+        "google.smslaunch.epizy.com": "GoGetSSL > GoGetSSL RSA DV CA > USERTrust RSA Certification Authority",
+        "smslaunch.epizy.com": "SSLS: GoGetSSL > GoGetSSL RSA DV CA > USERTrust RSA Certification Authority",
+        "smslaunch.freecluster.eu": "SSLS: GoGetSSL > GoGetSSL RSA DV CA > USERTrust RSA Certification Authority",
+        "smslaunch.rf.gd": "smslaunch.rf.gd > smslaunch.rf.gd"
+    }
+}
