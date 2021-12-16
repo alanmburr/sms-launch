@@ -1,0 +1,29 @@
+sprite {
+    background-image: url('i/css_sprites.png');
+    width: 32px;
+    display: block;
+}
+
+sprite[data-id="bing-logo"] {
+    width: 1024px; height: 160px;
+    background-position: -0 -485px;
+} sprite[data-id="com-bing"] {
+    /*width: 32px; height: 32px;*/
+    background-position: -1024px -485px;
+    background-size: 24px 24px;
+} sprite[data-id="com-duckduckgo"] {
+    width: 32px; height: 32px;
+    background-position: -1056px -485px;
+} sprite[data-id="com-google"] {
+    width: 32px; height: 32px;
+    background-position: -1088px -485px;
+} sprite[data-id="duckduckgo-logo"] {
+    width: 520px; height: 180px;
+    background-position: -544px -645px;
+} sprite[data-id="google-logo"] {
+    width: 544px; height: 184px;
+    background-position: -0 -645px;
+} sprite[data-id="logo"] {
+    width: 1882px; height: 485px;
+    background-position: -0 -0;
+}
