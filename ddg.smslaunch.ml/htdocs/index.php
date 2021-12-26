@@ -44,7 +44,8 @@
 		<div class="header-wrap--home  js-header-wrap">
 			<div class="header--aside js-header-aside" style="padding-left: 4px !important;">
 				<a class="js-side-menu-open" href="https://google.smslaunch.ml">Google</a>&nbsp;&nbsp;&VerticalSeparator;&nbsp;
-				<a class="js-side-menu-open" href="https://bing.smslaunch.ml">Bing</a>&nbsp;&nbsp;
+				<a class="js-side-menu-open" href="https://bing.smslaunch.ml">Bing</a>&nbsp;&nbsp;&VerticalSeparator;&nbsp;
+				<a class="js-side-menu-open" href="https://foreverfree.ga">RoyalityFree.com</a>&nbsp;&nbsp;
 			</div>
 		</div>
 		<div class="center form_length">
