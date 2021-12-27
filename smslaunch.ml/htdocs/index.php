@@ -128,7 +128,7 @@
         <center style="margin-top: 5vh;">
             <h2>Or Quick Search right here</h2>
             <form>
-                <input type="search" name="q" id="q" style="position: relative; display: block; width: 36%;" maxlength="2048" class="form-control">
+                <input type="search" name="q" id="q" style="position: relative; display: block; width: 36%;" maxlength="2048" class="form-control" minlength="2">
                 <div style="margin-top: 0px;padding-top: 0px;font-size: 12pt;position: relative; top:-12pt">
                     <style>button[type=submit] {border-radius: 6px; display: inline-block; margin-top: 5vh;}</style>
                     <button type="submit" formaction="https://google.smslaunch.ml/search.php" class="btn btn-outline-secondary">
@@ -139,6 +139,10 @@
                     </button>
                     <button type="submit" formaction="https://ddg.smslaunch.ml/search.php" class="btn btn-outline-secondary">
                         <img src="i/com.duckduckgo.ico" sizes="16" alt="&#129414;">
+                    </button>
+                    </button>
+                    <button type="submit" formaction="https://forum.royalityfree.com/search" class="btn btn-outline-secondary">
+                        <img src="i/com.royalityfree.forum.ico" sizes="16" alt="&#128081;" height="32">
                     </button>
                 </div>
             </form>
