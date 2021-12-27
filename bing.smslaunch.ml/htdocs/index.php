@@ -55,7 +55,7 @@
                                         <a href="http://ddg.smslaunch.ml" style="color: inherit; font-size: small;">DuckDuckGo</a>
                                     </li>
                                     <li class="scope try_exp" style="color: rgba(255,255,255,.8); display: inline; margin-right: 36px;">
-                                        <a href="https://foreverfree.ga" style="color: inherit; font-size: small;">RoyalityFree.com</a>
+                                        <a href="https://foreverfree.ga/?utm_source=nav.bing.smslaunch.ml" style="color: inherit; font-size: small;">RoyalityFree Web Hosting</a>
                                     </li>
                                     <li class="scope try_exp" style="color: rgba(255,255,255,.8); display: hidden;"></li>
                                     <li class="scope dots" style="display: hidden;"></li>
