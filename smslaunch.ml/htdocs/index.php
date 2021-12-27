@@ -143,10 +143,10 @@
                 </div>
             </form>
         </center>
-        <a href="https://foreverfree.ga" style="height: 200px; width: 100%; position: sicky; bottom: 0; left:0; ">
+        <a href="https://foreverfree.ga/?utm_source=pop-outer.smslaunch.ml" style="height: 200px; width: 100%; position: sicky; bottom: 0; left:0; ">
             <div class="position-absolute bottom-0 end-0 border-dark text-center w-100" style="overflow-x: hidden;">
                 <div style="height: 200px; width: 200px; overflow: hidden; text-overflow: ellipsis; transition: all 3.33s ease-in-out; animation: ani 10s infinite;" class="position-relative border border-dark ps-1 pe-1 pt-0 pb-1" id="newdiv">
-                    <a href="http://foreverfree.ga/" style="text-decoration: none;">
+                    <a href="http://foreverfree.ga/?utm_source=pop-inner.smslaunch.ml" style="text-decoration: none;">
                         <h3>RoyalityFree Web Hosting!</h3>
                         <div style="overflow: hidden; text-overflow: ellipsis;">
                             Free Hosting with Unlimited Disk Space, Unlimited Bandwidth, and Unlimited Websites from RoyalityFree. With PHP and MySQL and no forced ads on your site.
