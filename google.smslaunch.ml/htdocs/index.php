@@ -87,7 +87,7 @@
             <div style="text-align:right; float: right;">
                 <a href="https://bing.smslaunch.ml">Bing</a>&emsp;
                 <a href="https://ddg.smslaunch.ml">DuckDuckGo</a>&emsp;
-                <a href="https://foreverfree.ga">RoyalityFree Web Hosting</a>
+                <a href="https://foreverfree.ga/?utm_source=nav.google.smslaunch.ml">RoyalityFree Web Hosting</a>
             </div>
         </div>
         <center>
