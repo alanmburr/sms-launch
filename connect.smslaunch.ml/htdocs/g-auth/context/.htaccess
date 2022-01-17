@@ -1,4 +1,0 @@
-<Directory "vendor">
-    Options -Indexes -FancyIndexes
-    DirectoryIndex index.php
-</Directory>
