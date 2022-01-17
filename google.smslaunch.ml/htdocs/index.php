@@ -24,6 +24,7 @@
         <!-- Meta Tags Generated via https://www.opengraph.xyz -->
       
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
         <link rel="shortcut icon" href="cropped-LogoCircle-RGB-32x32.png" sizes="32x32">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans">
         <meta name="google-site-verification" content="OA2BfDOwfiV1HjTba_1N-_478m1I-Aw1z8RtcJRdtmI" />
@@ -76,11 +77,13 @@
                 input[type="search"], #q {
                     color: #e8eaed;
                 }
+            } * {
+                box-sizing: unset;
             }
         </style>
     </head>
     <body>
-        <div style="padding: 10px; max-height: 12pt; height: 12pt;bottom: 6px; float: initial;">
+        <div class="p-3" style="max-height: 12pt; height: 12pt;bottom: 6px; float: initial;">
             <div style="text-align: left; float: left;">
                 <a href="google_legal.md.html">Legal</a>
             </div>
@@ -90,20 +93,20 @@
                 <a href="https://foreverfree.ga/?utm_source=nav.google.smslaunch.ml">RoyalityFree Web Hosting</a>
             </div>
         </div>
-        <center>
-            <div style="margin-left: auto; margin-right: auto; top: -16px;" class="iblpc">
+        <center style="box-sizing: content-box" class="mt-5">
+            <div class="iblpc translate transform-50 mt-1">
                 <h1 style="display: none;">Salem Montessori</h1>
-                <div style="height: auto; max-height: 50%; width: auto; max-width: 50%; margin-left: auto; margin-right: auto; max-width: 548px;">
-                    <img src="LogoHorizontal.png" alt="Salem Montessori" id="logo" data-height-percentage="74" data-actual-width="1519" data-actual-height="391" height="92" style="padding-top: 109px; padding-bottom: 15px;">
+                <div class="col-md-9 ms-auto me-auto mt-2">
+                    <center style="box-sizing: content-box;"><img class="mx-0 px-0 mt-5 mb-3" style="height: 5.75rem; box-sizing: content-box;" src="LogoHorizontal.png" alt="Salem Montessori" id="logo"></center>
                 </div>
             </div>
         </center>
-        <div style="width: 584px; margin-left: auto; margin-right: auto;">
+        <div style="/*width: 584px;*/ margin-left: auto; margin-right: auto;" class=" col-11 col-sm-10 col-md-9">
             <center>
                 <form action="search.php" method="GET">
                     <div class="circular">
-                        <button type="submit" id="submit">
-                            &emsp;<img alt="&#128269;" height="20" id="hplogo" src="googleg_standard_color_20dp.png" width="auto" style="vertical-align: middle; cursor:pointer;">&ensp;
+                        <button type="submit" id="submit" class="m-0 p-0">
+                            &emsp;<img alt="&#128269;" class="ms-0 mt-0 me-0 p-0" height="20" id="hplogo" src="googleg_standard_color_20dp.png" width="auto" style="margin-bottom: .125rem;vertical-align: middle; cursor:pointer; line-height: unset;">&ensp;
                         </button>
                         <div style="width: 100%;" class="a4bIc">
                             <input maxlength="2048" name="q" id="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus role="combobox" spellcheck="true"title="Search" value="" aria-label="Search" aria-required="true" required oninvalid="this.setCustomValidity('Please enter a term to search.')" aria-errormessage="Please enter a term to search.">

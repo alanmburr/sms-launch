@@ -9260,7 +9260,7 @@ only screen and (min-resolution: 192dppx) and (max-height: 425px) {
     padding-top:1em
 }
 img {
-    max-width:100%
+    max-width:75%;
 }
 .site-wrapper {
     width:100%;

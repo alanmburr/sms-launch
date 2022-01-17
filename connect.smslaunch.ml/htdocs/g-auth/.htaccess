@@ -1,0 +1,11 @@
+php_value display_errors On
+
+DirectoryIndex index.html
+
+<FilesMatch ".json">
+    Require all denied
+</FilesMatch>
+
+<Directory "context">
+    Options -Indexes -FancyIndexes
+</Directory>

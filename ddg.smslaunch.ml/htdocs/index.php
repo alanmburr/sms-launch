@@ -34,7 +34,7 @@
 
         	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
       
-
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
         	<link rel="canonical" href="https://ddg.smslaunch.ml/" />
         	<link rel='shortlink' href='https://ddg.smslaunch.ml/' />
       
@@ -48,9 +48,9 @@
 				<a class="js-side-menu-open" href="https://foreverfree.ga/?utm_source=nav.ddg.smslaunch.ml">RoyalityFree Web Hosting</a>&nbsp;&nbsp;
 			</div>
 		</div>
-		<div class="center form_length">
+		<div class="center col-9 col-md-4">
 			<div style="margin-left: auto; margin-right: auto;">
-				<img src="LogoHorizontal.png" alt="Salem Montessori" id="logo" sizes="64" style="padding-bottom: 5%;">
+				<center><img src="LogoHorizontal.png" alt="Salem Montessori" id="logo" sizes="64" style="padding-bottom: 0%;"></center>
 			</div>
 			<br>
 			<form class="search  search--home" name="x" method="GET" action="search.php">
