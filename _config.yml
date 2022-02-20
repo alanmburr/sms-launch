@@ -22,3 +22,4 @@ google_plus_one_size: medium
 facebook_like: false
 gitlab_username: wackyblackie
 exclude: 404.html
+include: _redirects
