@@ -28,16 +28,16 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
         <link rel="shortcut icon" href="cropped-LogoCircle-RGB-32x32.png">
-        <link rel="preconnect" href="https://bpotd.wackyblackie.repl.co/">
+        <link rel="preconnect" href="https://morning-plains-51732.herokuapp.com/bing_image.php">
         <link rel="stylesheet" href="bing.style.css">
-        <link rel="preload" href="https://bpotd.wackyblackie.repl.co/" type="image/jpg" as="image">
+        <link rel="preload" href="https://morning-plains-51732.herokuapp.com/bing_image.php" type="image/jpg" as="image">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body data-priority="2" class="d-flex justify-content-center">
         <div class="hpapp col-12 col-md-10 justify-content-center">
             <div class="hp_body ms-md-2 container-fluid justify-content-start">
                 <div class="hpl">
-                    <div class="img_cont" id="bg_img" style="background-image: url(https://bpotd.wackyblackie.repl.co/);">
+                    <div class="img_cont" id="bg_img" style="background-image: url(https://morning-plains-51732.herokuapp.com/bing_image.php);">
                         <div class="shaders shade"></div>
                     </div>
                 </div>
@@ -84,6 +84,30 @@
                     </div>
                 </div>
             </div>
+            <style>
+                #quote {
+                    opacity: 0.5;
+                    -webkit-transition: opacity 0.5s ease-in-out;
+                    -moz-transition: opacity 0.5s ease-in-out;
+                    -ms-transition: opacity 0.5s ease-in-out;
+                    -o-transition: opacity 0.5s ease-in-out;
+                    transition: opacity 0.5s ease-in-out;
+                } #quote:hover, #quote:focus {opacity:1;}</style>
+            <figure style="position:absolute; right: 10vw; bottom: 15vh; max-width: 324px;" id="quote">
+                <div class="mt-5 ms-3 card bg-secondary">
+                    <div class="card-header">
+                        Quote for today, <?=date('F d, Y')?>
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="ps-3">
+                            <?=file_get_contents('https://morning-plains-51732.herokuapp.com/bing_quote.php');?>
+                        </blockquote>
+                        <figcaption class="blockquote-footer ps-5 mb-1 text-white-50">
+                            <?=file_get_contents('https://morning-plains-51732.herokuapp.com/bing_quote_author.php');?>
+                        </figcaption>
+                    </div> 
+                </div> 
+            </figure>
         </div>
     </body>
 </html>
